@@ -1,4 +1,4 @@
-import { einstein, freelancer, css } from "../assets/images";
+import { einstein, freelancer, css, atena } from "../assets/images";
 import {
   car,
   contact,
@@ -24,9 +24,49 @@ import {
 
 export const skills = [
   {
+    imageUrl: html,
+    name: "HTML",
+    type: "Frontend",
+  },
+  {
     imageUrl: css,
     name: "CSS",
     type: "Frontend",
+  },
+  {
+    imageUrl: tailwindcss,
+    name: "Tailwind CSS",
+    type: "Frontend",
+  },
+  {
+    imageUrl: sass,
+    name: "Sass",
+    type: "Frontend",
+  },
+  {
+    imageUrl: javascript,
+    name: "JavaScript",
+    type: "Frontend",
+  },
+  {
+    imageUrl: typescript,
+    name: "TypeScript",
+    type: "Frontend",
+  },
+  {
+    imageUrl: react,
+    name: "React",
+    type: "Frontend",
+  },
+  {
+    imageUrl: nextjs,
+    name: "Next.js",
+    type: "Frontend",
+  },
+  {
+    imageUrl: nodejs,
+    name: "Node.js",
+    type: "Backend",
   },
   {
     imageUrl: express,
@@ -44,16 +84,6 @@ export const skills = [
     type: "Version Control",
   },
   {
-    imageUrl: html,
-    name: "HTML",
-    type: "Frontend",
-  },
-  {
-    imageUrl: javascript,
-    name: "JavaScript",
-    type: "Frontend",
-  },
-  {
     imageUrl: mongodb,
     name: "MongoDB",
     type: "Database",
@@ -61,36 +91,6 @@ export const skills = [
   {
     imageUrl: mui,
     name: "Material-UI",
-    type: "Frontend",
-  },
-  {
-    imageUrl: nextjs,
-    name: "Next.js",
-    type: "Frontend",
-  },
-  {
-    imageUrl: nodejs,
-    name: "Node.js",
-    type: "Backend",
-  },
-  {
-    imageUrl: react,
-    name: "React",
-    type: "Frontend",
-  },
-  {
-    imageUrl: sass,
-    name: "Sass",
-    type: "Frontend",
-  },
-  {
-    imageUrl: tailwindcss,
-    name: "Tailwind CSS",
-    type: "Frontend",
-  },
-  {
-    imageUrl: typescript,
-    name: "TypeScript",
     type: "Frontend",
   },
 ];
@@ -106,6 +106,20 @@ export const experiences = [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Accessibility adjustments aimed at significant improvements in the website’s usability.",
+    ],
+  },
+  {
+    title: "Web Developer",
+    company_name: "Atena Solution",
+    icon: atena,
+    iconBg: "#F0E68C",
+    date: "August 2023 - November 2023",
+    points: [
+      "Problem-solving, maintenance, and continuous optimization of existing interfaces on websites and web applications.",
+      "Creation of new interactive user interfaces.",
+      "Testing performed for each new developed component.",
+      "Accessibility adjustments aiming at significant improvements in site usability.",
+      "Effective collaboration within a global team, using English as the primary means of communication.",
     ],
   },
   {

@@ -7,6 +7,7 @@ import logo from "./logo.svg";
 import einstein from "./einstein.jpg";
 import freelancer from "./freelancer.jpg";
 import css from "./css.svg";
+import atena from "./atena.jpg";
 
 export {
   hero,
@@ -18,4 +19,5 @@ export {
   einstein,
   freelancer,
   css,
+  atena,
 };
